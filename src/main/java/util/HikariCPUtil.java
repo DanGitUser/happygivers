@@ -16,7 +16,7 @@ public class HikariCPUtil {
 		HikariConfig config = new HikariConfig();
 		config.setJdbcUrl("jdbc:log4jdbc:mariadb://np.ministory.kr:3306/pbl");
 //		config.setJdbcUrl("jdbc:mariadb://np.ministory.kr:3306/pbl");
-		config.setUsername("sample");
+		config.setUsername("give");
 		config.setPassword("1234");
 //		config.setDriverClassName("org.mariadb.jdbc.Driver");
 		config.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
